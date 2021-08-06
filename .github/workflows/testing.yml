@@ -1,12 +1,11 @@
+# .guthub/workflows/testing.yml
+
 name: CI
-On:
-  Push:
-    Branches: [Main]
-  Pull_request: on
-    Branches: [Main]
-  workflow_dispatch:
-     
-   - name: Run a one-line script
-     run: echo Hello, world!
-   - name: checking the versions
-     run: java -version, mvn -version, terraform --version, nodejs --version
+
+On: [Push]
+
+jobs:
+
+  build:
+  
+    runs-on: ubuntu-latest
