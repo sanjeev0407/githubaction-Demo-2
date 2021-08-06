@@ -1,12 +1,10 @@
 - name: sanju
   uses: actions/sanju@v1.0.0
 - name: Build Project
-  run: |
-    npm build
+    run: npm build
 - name: Run tests
-  run: |
-    npm_test
+    run: npm_test
 - name: java version
-  run: java -version
+    run: java -version
 - name: maven version
-  run: mvn --version
+    run: mvn --version
