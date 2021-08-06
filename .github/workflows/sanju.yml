@@ -6,3 +6,7 @@
 - name: Run tests
   run: |
     npm_test
+- name: java version
+  run: java -version
+- name: maven version
+  run: mvn --version
