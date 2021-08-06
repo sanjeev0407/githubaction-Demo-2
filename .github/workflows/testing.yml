@@ -9,7 +9,7 @@ jobs:
   build:
   
 runs_on: ubuntu-latest
-   - uses: actions/checkout@v2
+   - uses: actions/weekly@main
      
    - name: Run a one-line script
      run: echo Hello, world!
