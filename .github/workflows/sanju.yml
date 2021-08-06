@@ -1,0 +1,8 @@
+- name: sanju
+  uses: actions/sanju@v1.0.0
+- name: Build Project
+  run: |
+    npm build
+- name: Run tests
+  run: |
+    npm_test
